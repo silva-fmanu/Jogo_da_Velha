@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jogo da velha, JOGO DA VELHA, Jogo Da Velha, jogo da velha, jogodavelha">
+    <meta name="descripition" content="Jogo da velha jogavél com placar que pode ser reiniciado">
+    <meta name="author" content="Manuela Farias da Silva">
+    <link rel="shortcut icon" type="imagex/png" href="/estilos/imagens/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+
+
+</head>
+<body>
+    <main>
+        <h1>JOGO DA VELHA</h1>
+        <div class="area_jogo">
+            <button data-i="1"></button>
+            <button data-i="2"></button>
+            <button data-i="3"></button>
+            <button data-i="4"></button>
+            <button data-i="5"></button>
+            <button data-i="6"></button>
+            <button data-i="7"></button>
+            <button data-i="8"></button>
+            <button data-i="9"></button>
+        </div>
+        <h2 class="vez_quem"></h2>
+        </main>
+ 
+        <div class="placar">
+            <h2 class="placar_title">PLACAR:</h2>
+            <p class="xis">Vitórias do Jogador X: <span id="playerXWins">0</span></p>
+            <p class="bola">Vitórias do Jogador O: <span id="playerOWins">0</span></p>
+            <p class="empates">Empates: <span id="empates">0</span></p>
+            <button id="restartButton"><i class="fas fa-redo-alt">ㅤReiniciar</i></button>
+            
+        </div>
+    <script src="/estilos/script.js"></script>
+</body>
+</html>
