@@ -55,7 +55,7 @@ h1 {
 
 .placar {
     font-size: 1.5vw;
-    background-image: url("./estilos/imagens/planodefundoplacar.jpg");
+     background-color: rgb(8, 8, 8);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
